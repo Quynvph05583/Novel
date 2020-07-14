@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.novelsproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_book3"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_book3"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.RegisterActivity"></activity>
+        <activity
+            android:name=".ui.DoctruyenActivity"
+            android:label="@string/doctruyen"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ui.PlashCreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ChapActivity"
+            android:label="@string/storychap"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.HomeActivity"
+            android:label="@string/home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.ListCategoryActivity"
+            android:label="@string/category"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.ListStoriesActivity"
+            android:label="@string/stories"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

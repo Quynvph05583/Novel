@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Yêu Manga</string>
+    <string name="home">Trang chủ</string>
+    <string name="category">The loai</string>
+    <string name="stories">Danh sach truyen</string>
+    <string name="storychap">Danh sach Chapter</string>
+    <string name="plash">Man hinh chao</string>
+    <string name="doctruyen">Doc truyen</string>
+</resources>

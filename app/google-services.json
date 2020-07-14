@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "499610581985",
+    "firebase_url": "https://storiesproject-cda3c.firebaseio.com",
+    "project_id": "storiesproject-cda3c",
+    "storage_bucket": "storiesproject-cda3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499610581985:android:8fe5c82edc5dce4d5030a0",
+        "android_client_info": {
+          "package_name": "com.example.novelsproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "499610581985-4h09bbkhkbk191jj425oiojkupcfa7rl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.novelsproject",
+            "certificate_hash": "b9e6d19b290ddbd9266c7312d035c3e04a0cc88d"
+          }
+        },
+        {
+          "client_id": "499610581985-3a8ihc1bgopsin4upuqhthifh9ba2caq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSLrcLvGX9-vAPabXAGgEvYZVIOe14KwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "499610581985-3a8ihc1bgopsin4upuqhthifh9ba2caq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

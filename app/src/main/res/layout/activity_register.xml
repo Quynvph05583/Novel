@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.RegisterActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarStories"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/story" />
+
+    <EditText
+        android:id="@+id/edUser"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="#11000000"
+        android:hint="Tài khoản"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="#11000000"
+        android:hint="Họ và tên"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="#11000000"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="5dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edPass"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="#11000000"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/edRePass"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="#11000000"
+        android:hint="Nhập lại mật khẩu"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:background="#F294C5"
+        android:text="Register"
+        android:textColor="@color/colorWhite"
+        android:textSize="20px"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</LinearLayout>
